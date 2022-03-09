@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Montserrat:wght@400;500;600&family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #433ac2;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.top-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.text h1 {
+    padding-top: 250px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 350%;
+    justify-content: center;
+}
+
+.text p {
+    padding-top: 20px;
+    font-weight: 200;
+}
+.middle-container {
+    margin: 100px auto 100px auto;
+}
+
+.middle-container p {
+    padding-top: 15px;
+}
+
+.bottom-container {
+    background-color: #6975F4;
+    padding: 20px 0 20px;
+    font-family: Montserrat;
+}
+
+.bottom-container p {
+    padding-top: 15px;
+    font-size: 0.75rem;
+    color: #F6D7A7;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+h1 {
+    margin-top: 50px auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400%;
+    font-weight: bold;
+    color: #ffff;
+}
+
+h2 {
+    font-size: 250%;
+    font-family: 'Montserrat', sans-serif;
+    color: #F6D7A7;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #F6D7A7;
+    font-weight: bold;
+}
+
+p {
+    font-family: Inter;
+    font-weight: 200;
+}
+
+hr {
+    border: dotted #7882A4 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+a {
+    margin: 10px 20px;
+    text-decoration: none;
+}
