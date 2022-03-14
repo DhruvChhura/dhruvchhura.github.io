@@ -33,6 +33,7 @@ body {
 .text p {
     padding-top: 20px;
     font-weight: 200;
+    font-size: 20px;
 }
 .middle-container {
     margin: 100px auto 100px auto;
@@ -70,6 +71,12 @@ body {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.about {
+    padding: 20px 0 20px;
+    width: 50%;
+    margin: 100px auto 100px auto;
 }
 
 .contact-message {
